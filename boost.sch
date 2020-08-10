@@ -86,7 +86,7 @@ AR Path="/5F8A6096" Ref="R?"  Part="1"
 AR Path="/5F880B1F/5F8A6096" Ref="R2"  Part="1" 
 F 0 "R2" V 2804 3100 50  0000 C CNN
 F 1 "22" V 2895 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 3000 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3000 3100 50  0001 C CNN
 F 3 "~" H 3000 3100 50  0001 C CNN
 	1    3000 3100
 	0    1    1    0   

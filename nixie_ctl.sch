@@ -21,7 +21,7 @@ AR Path="/5FAACA21" Ref="U?"  Part="1"
 AR Path="/5FA9D61E/5FAACA21" Ref="U5"  Part="1" 
 F 0 "U5" H 2000 4625 50  0000 C CNN
 F 1 "TLP627" H 2000 4534 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 4100 50  0001 L CIN
+F 2 "5IN14Lib:TLP627" H 1700 4100 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 2000 4300 50  0001 L CNN
 	1    2000 4300
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/5FAACA27" Ref="U?"  Part="1"
 AR Path="/5FA9D61E/5FAACA27" Ref="U2"  Part="1" 
 F 0 "U2" H 2000 2825 50  0000 C CNN
 F 1 "TLP627" H 2000 2734 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 2300 50  0001 L CIN
+F 2 "5IN14Lib:TLP627" H 1700 2300 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 2000 2500 50  0001 L CNN
 	1    2000 2500
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/5FAACA2D" Ref="U?"  Part="1"
 AR Path="/5FA9D61E/5FAACA2D" Ref="U1"  Part="1" 
 F 0 "U1" H 2000 2225 50  0000 C CNN
 F 1 "TLP627" H 2000 2134 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 1700 50  0001 L CIN
+F 2 "5IN14Lib:TLP627" H 1700 1700 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 2000 1900 50  0001 L CNN
 	1    2000 1900
 	1    0    0    -1  
@@ -60,7 +60,7 @@ AR Path="/5FAACA33" Ref="U?"  Part="1"
 AR Path="/5FA9D61E/5FAACA33" Ref="U3"  Part="1" 
 F 0 "U3" H 2000 3425 50  0000 C CNN
 F 1 "TLP627" H 2000 3334 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 2900 50  0001 L CIN
+F 2 "5IN14Lib:TLP627" H 1700 2900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 2000 3100 50  0001 L CNN
 	1    2000 3100
 	1    0    0    -1  
@@ -112,7 +112,7 @@ AR Path="/5FAACA4C" Ref="U?"  Part="1"
 AR Path="/5FA9D61E/5FAACA4C" Ref="U4"  Part="1" 
 F 0 "U4" H 2000 4025 50  0000 C CNN
 F 1 "TLP627" H 2000 3934 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1700 3500 50  0001 L CIN
+F 2 "5IN14Lib:TLP627" H 1700 3500 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627" H 2000 3700 50  0001 L CNN
 	1    2000 3700
 	1    0    0    -1  

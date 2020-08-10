@@ -68,7 +68,6 @@ Text Label 3500 1700 2    50   ~ 0
 CATHODE_2
 Text Label 3500 1600 2    50   ~ 0
 CATHODE_1
-NoConn ~ 4500 2500
 NoConn ~ 4500 1600
 Text Label 3500 1800 2    50   ~ 0
 CATHODE_3
@@ -116,10 +115,8 @@ Text Label 7900 2000 2    50   ~ 0
 CATHODE_5
 Text Label 7900 2200 2    50   ~ 0
 CATHODE_7
-NoConn ~ 6700 2500
 NoConn ~ 6700 1600
 NoConn ~ 8900 1600
-NoConn ~ 8900 2500
 $Comp
 L 5IN14Lib:IN-14 N?
 U 1 1 5F979FF6
@@ -666,4 +663,100 @@ Wire Wire Line
 	10000 3900 8700 3900
 Wire Wire Line
 	4300 3900 5900 3900
+$Comp
+L Device:R_Small R?
+U 1 1 5F319E82
+P 9400 3000
+AR Path="/5F319E82" Ref="R?"  Part="1" 
+AR Path="/5F96E155/5F319E82" Ref="R11"  Part="1" 
+F 0 "R11" V 9204 3000 50  0000 C CNN
+F 1 "10k*" V 9295 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9400 3000 50  0001 C CNN
+F 3 "~" H 9400 3000 50  0001 C CNN
+	1    9400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F31BFD2
+P 9550 3050
+AR Path="/5F31BFD2" Ref="#PWR?"  Part="1" 
+AR Path="/5F96E155/5F31BFD2" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 9550 2800 50  0001 C CNN
+F 1 "GND" V 9555 2922 50  0000 R CNN
+F 2 "" H 9550 3050 50  0001 C CNN
+F 3 "" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F3197CD
+P 6850 2500
+AR Path="/5F3197CD" Ref="JP?"  Part="1" 
+AR Path="/5F880B1F/5F3197CD" Ref="JP?"  Part="1" 
+AR Path="/5F96E155/5F3197CD" Ref="JP3"  Part="1" 
+F 0 "JP3" H 6850 2712 50  0000 C CNN
+F 1 "DOT3" H 6850 2621 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6850 2500 50  0001 C CNN
+F 3 "~" H 6850 2500 50  0001 C CNN
+	1    6850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3000 9550 3000
+Wire Wire Line
+	9550 3000 9550 3050
+Wire Wire Line
+	6750 2500 6700 2500
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F31EAE6
+P 9000 2500
+AR Path="/5F31EAE6" Ref="JP?"  Part="1" 
+AR Path="/5F880B1F/5F31EAE6" Ref="JP?"  Part="1" 
+AR Path="/5F96E155/5F31EAE6" Ref="JP4"  Part="1" 
+F 0 "JP4" H 9000 2712 50  0000 C CNN
+F 1 "DOT4" H 9000 2621 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3000 9200 3000
+Wire Wire Line
+	9100 2500 9200 2500
+Wire Wire Line
+	9200 2500 9200 3000
+Connection ~ 9200 3000
+Wire Wire Line
+	7050 2500 7050 3000
+Wire Wire Line
+	6950 2500 7050 2500
+Wire Wire Line
+	7050 3000 9200 3000
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F32C454
+P 4650 2500
+AR Path="/5F32C454" Ref="JP?"  Part="1" 
+AR Path="/5F880B1F/5F32C454" Ref="JP?"  Part="1" 
+AR Path="/5F96E155/5F32C454" Ref="JP2"  Part="1" 
+F 0 "JP2" H 4650 2712 50  0000 C CNN
+F 1 "DOT2" H 4650 2621 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4650 2500 50  0001 C CNN
+F 3 "~" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2500 4550 2500
+Wire Wire Line
+	4750 2500 4850 2500
+Wire Wire Line
+	4850 2500 4850 3000
+Wire Wire Line
+	4850 3000 7050 3000
+Connection ~ 7050 3000
 $EndSCHEMATC
